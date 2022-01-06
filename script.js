@@ -1,3 +1,4 @@
+//Variable Startlist
 var questionsEl = document.getElementById("questions");
 var timerEl = document.getElementById("time");
 var choicesEl = document.getElementById("choices");
@@ -8,3 +9,4 @@ var feedbackEl = document.getElementById("feedback");
 var currentQuestionIndex = 0;
 var time = questions.length * 15;
 var timerId;
+
