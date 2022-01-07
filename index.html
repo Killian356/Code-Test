@@ -4,42 +4,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Code Test</title>
-
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <div  class="scores"><a href="leaderboard.html">View Highscore Leaderboard</a></div>
-
+    <div class="scores">
+      <a href="leaderboard.html">View Highscore Leaderboard</a>
+    </div>
     <div class="timer">Time: <span id="time">0</span></div>
-
     <div class="wrapper">
       <div id="start-screen" class="start">
         <h1>JavaScript Knowlege Test</h1>
         <p>
-          This is a test of your basic knowlege of JavaScript. Each wrong answer insults you and deducts points. Do you think you can handle it? 
+          This is a test of your basic knowlege of JavaScript. Each wrong answer
+          insults you and deducts points. Do you think you can handle it?
         </p>
         <button id="start">Start Quiz</button>
       </div>
-
       <div id="questions" class="hide">
         <h2 id="question-title"></h2>
         <div id="choices" class="choices"></div>
       </div>
-
       <div id="end-screen" class="hide">
         <h2>Finished!</h2>
-        <p> Your Final Score is <span id="final-score"></span> Points. <span style='font-size:100px;'>&#128526;</span></p>
         <p>
-          Enter initials: <input type="text" id="initials" max="5" />
-          <button id="submit">Submit</button>
+          Your Final Score is <span id="final-score"></span> Points.
+          <span style="font-size: 100px">&#128526;</span>
+        </p>
+        <p>
+          Enter Your Name: <input type="text" id="name" max="28" />
+          <button id="submit">Sign Your Life Away</button>
         </p>
       </div>
-
       <div id="feedback" class="feedback hide"></div>
     </div>
-
-    
   </body>
   <script src="JavaScript\questions.js"></script>
   <script src="JavaScript\script.js"></script>
